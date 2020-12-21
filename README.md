@@ -27,5 +27,5 @@ usability or otherwise enhance the application.
 3. Search updates when user presses enter.
 5. Pagination limit can be selected 5 or 10 items per page.
 6. Assume links leave SPA and navigate into Github.
-7. Suggestion - Add rating (furture place holder pending data store)
+7. Suggestion - Add rating (future place holder pending data store)
 
