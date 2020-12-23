@@ -1,0 +1,9 @@
+<p>Member Details</p>
+<ul>
+    <li><b>Name: </b><span >{{userDetails.name}}</span></li>
+    <li><b>Location: </b><span >{{userDetails.location}}</span></li>
+    <li><b>Email: </b><span >{{userDetails.email}}</span></li>
+    <li><b>Public repos: </b> <span class="badge badge-primary badge-pill">{{userDetails.public_repos}}</span></li>
+    <li><b>Created: </b><span >{{userDetails.created_at?.toLocaleString()}}</span></li>
+    <li><b>Updated: </b><span >{{userDetails.updated_at?.toLocaleString()}}</span></li>
+</ul>

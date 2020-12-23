@@ -8,19 +8,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
 import { MemberCardComponent } from './member-card/member-card.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
+import { PaginationModule,PaginationConfig } from 'ngx-bootstrap/pagination';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    MemberCardComponent
+    MemberCardComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    PaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

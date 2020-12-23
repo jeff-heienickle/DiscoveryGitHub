@@ -11,6 +11,6 @@ export class GitHubService {
   constructor(private http: HttpClient) { }
 
   search(model: any) {
-    return this.http.get<Member[]>('https://api.github.com/search/users?q=' + model.searchName)
+    return this.http.get<Member[]>('https://api.github.com/search/users?q=' + model.searchName + "&page=" + model.page + "&per_page=" + model.pageSize)
   }
 }
